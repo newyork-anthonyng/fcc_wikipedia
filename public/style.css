@@ -1,0 +1,25 @@
+body {
+  text-align: center; }
+
+.leftColumn {
+  float: left;
+  width: 40%; }
+
+.rightColumn {
+  float: left;
+  width: 50%; }
+
+.article {
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: #F08080;
+  width: 50%;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Free Code Camp, FCC, Wikipedia Viewer, Intermediate Front End Project">
+  <meta name="description" content="Free Code Camp Intermediate Front End Project Wikipedia Viewer">
+  <meta name="author" content="Anthony Ng">
+  <link href="./style.css" type="text/css" rel="stylesheet" />
+  <link href="./assets/favicon.ico" type="image/x-icon" rel="icon" />
+  <link href="./assets/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="leftColumn">
+    <h1>Wikipedia Viewer</h1>
+    <h2>Free Code Camp</h2>
+
+    <input type="text" placeholder="Search Term" id="searchTerm"></input>
+    <button id="searchButton">Search Wikipedia</button>
+    <br />
+    <button id="randomButton">Random Article</button>
+  </div>
+
+  <div class="rightColumn">
+    <h2>Search Results</h2>
+    <div class="searchResults"></div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
